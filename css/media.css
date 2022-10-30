@@ -1,0 +1,55 @@
+@media screen and (max-width: 1140px) {
+    .films__wrap{
+        flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
+    }
+    
+}
+
+
+@media screen and (max-width: 640px) {
+    .header__wrap{
+        flex-direction: column;
+        gap: 15px;   
+    }
+}
+
+
+
+@media screen and (max-width:568px) {
+    .header__wrap{
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .banner-h{
+        font-size: 33px;    
+    }
+    
+    .banner-p{
+        font-size: 14px;
+    }
+    
+    .banner-links{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .banner-h{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .trailer__post {
+        width: 100%;        
+    }
+    
+}
