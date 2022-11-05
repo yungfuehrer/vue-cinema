@@ -4,6 +4,12 @@
          justify-content: center;
          align-items: center;
     }
+
+    .collections__wrap{
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        }
     
 }
 
@@ -18,9 +24,17 @@
 
 
 @media screen and (max-width:568px) {
-    .header__wrap{
+    .header__wrap {
         flex-direction: column;
         gap: 15px;
+    }
+
+    .series__banner {
+        width: 100%;
+    }
+
+    .series-h4 {
+    font-size: 24px ;
     }
 }
 
