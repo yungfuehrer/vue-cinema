@@ -10,6 +10,12 @@
         gap: 30px;
         justify-content: center;
         }
+
+    .series__cont{
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
     
 }
 
@@ -19,6 +25,10 @@
         flex-direction: column;
         gap: 15px;   
     }
+    .footer__wrap{
+        flex-direction: column;
+        gap: 15px;
+        }
 }
 
 
